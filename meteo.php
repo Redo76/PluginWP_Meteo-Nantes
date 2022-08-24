@@ -10,6 +10,10 @@ Author URI: http://mon-siteweb.com/
 
 */
 
+!get_option('city') ? add_option('city','Rouen') : '';
+!get_option('city') ? add_option('city','Rouen') : '';
+
+
 function getAPI(){
     $city = get_option('ville');
     $unit = get_option('unit');
